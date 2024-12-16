@@ -1,1 +1,1 @@
-Personalized configuration files
+Personalized configuration files.
