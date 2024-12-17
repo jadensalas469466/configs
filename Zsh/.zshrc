@@ -116,7 +116,7 @@ configure_prompt() {
 # The following block is surrounded by two delimiters.
 # These delimiters must not be modified. Thanks.
 # START KALI CONFIG VARIABLES
-PROMPT_ALTERNATIVE=oneline
+PROMPT_ALTERNATIVE=twoline
 NEWLINE_BEFORE_PROMPT=yes
 # STOP KALI CONFIG VARIABLES
 
@@ -257,11 +257,7 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 
-# Change from kali :
+# Change from kali
 #
-# 119 
-# - PROMPT_ALTERNATIVE=twoline
-# + PROMPT_ALTERNATIVE=oneline
-#
-# 229
+# line 229 :
 # + export GROFF_NO_SGR=1
