@@ -11,10 +11,10 @@
             },
             "socks_proxy":{
                 "dns_over_socks":false,
-                "host":"127.0.0.1",
+                "host":"",
                 "password":"",
-                "port":10808,
-                "use_proxy":true,
+                "port":0,
+                "use_proxy":false,
                 "username":""
             },
             "upstream_proxy":{
@@ -23,14 +23,13 @@
         },
         "display":{
             "character_sets":{
-                "mode":"use_a_specific_character_set",
-                "specific_character_set":"UTF-8"
+                "mode":"recognize_automatically"
             },
             "html_rendering":{
                 "allow_http_requests":true
             },
             "http_message_display":{
-                "font_name":"\u4EFF\u5B8B",
+                "font_name":"\u5B8B\u4F53",
                 "font_size":18,
                 "font_smoothing":true,
                 "highlight_requests":true,
@@ -46,174 +45,13 @@
             }
         },
         "extender":{
-            "extensions":[
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\HaE-3.3.3.jar",
-                    "extension_type":"java",
-                    "loaded":true,
-                    "name":"HaE (3.3.3) - Highlighter and Extractor",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\BurpFingerPrint\\BurpFingerPrint.jar",
-                    "extension_type":"java",
-                    "loaded":true,
-                    "name":"BurpFingerPrint.jar",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\BurpApiFinder\\BurpAPIFinder-high-v2.0.2.jar",
-                    "extension_type":"java",
-                    "loaded":true,
-                    "name":"BurpAPIFinder-high-v2.0.2.jar",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\knife-2.3-jar-with-dependencies.jar",
-                    "extension_type":"java",
-                    "loaded":true,
-                    "name":"Knife 2.3 by bit4woo",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\OneScan-v1.6.11.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"OneScan v1.6.11",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\RouteVulScan-1.5.4-JDK8.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"Route Vulnerable Scan 1.5.4",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\BurpShiroPassiveScan\\BurpShiroPassiveScan.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"ShiroScan",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\BurpFastJsonScan-2.2.2-jdk1.8\\BurpFastJsonScan.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"FastJsonScan",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\WooyunSearch-1.0-SNAPSHOT-jar-with-dependencies.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"From wooyun search",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\xia.SQL.3.3.jdk8.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"xia SQL V3.3",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\turbo-intruder-all.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"Turbo Intruder",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\BypassPro-3.0.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"BypassPro",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\fakeIP.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"burpFakeIP",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\captcha-killer-modified-0.24.6-jdk8.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"captcha-killer-modified 0.24.6",
-                    "output":"ui"
-                },
-                {
-                    "errors":"ui",
-                    "extension_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extension\\hackvertor-all.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"Hackvertor",
-                    "output":"ui"
-                },
-                {
-                    "bapp_serial_version":13,
-                    "bapp_uuid":"36238b534a78494db9bf2d03f112265c",
-                    "errors":"ui",
-                    "extension_file":"bapps\\36238b534a78494db9bf2d03f112265c\\retirejs-burp-plugin\\target\\burp-retire-js-3.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"Retire.js",
-                    "output":"ui"
-                },
-                {
-                    "bapp_serial_version":26,
-                    "bapp_uuid":"f9bbac8c4acf4aefa4d7dc92a991af2f",
-                    "errors":"ui",
-                    "extension_file":"bapps\\f9bbac8c4acf4aefa4d7dc92a991af2f\\Autorize.py",
-                    "extension_type":"python",
-                    "loaded":false,
-                    "name":"Autorize",
-                    "output":"ui"
-                },
-                {
-                    "bapp_serial_version":5,
-                    "bapp_uuid":"f89f2837c22c4ab4b772f31522647ed8",
-                    "errors":"ui",
-                    "extension_file":"bapps\\f89f2837c22c4ab4b772f31522647ed8\\build\\libs\\AutoRepeater.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"AutoRepeater",
-                    "output":"ui"
-                },
-                {
-                    "bapp_serial_version":1,
-                    "bapp_uuid":"4316cc18ac5f434884b2089831c7d19e",
-                    "errors":"ui",
-                    "extension_file":"bapps\\4316cc18ac5f434884b2089831c7d19e\\BurpAuthzPlugin-0.0.9-SNAPSHOT-jar-with-dependencies.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"Authz",
-                    "output":"ui"
-                }
-            ],
+            "extensions":[],
             "java":{
                 "folder_for_loading_library_jar_files":""
             },
             "python":{
                 "folder_for_loading_modules":"",
-                "location_of_jython_standalone_jar_file":"C:\\Users\\sec\\AppData\\Local\\Programs\\BurpSuitePro\\Extender\\jython-installer-2.7.4-javadoc.jar"
+                "location_of_jython_standalone_jar_file":""
             },
             "ruby":{
                 "location_of_jruby_jar_file":""
@@ -224,6 +62,8 @@
             }
         },
         "intruder":{
+            "sidebar_display_mode":"auto-expand",
+            "sidebar_position":"right",
             "tab_bar_layout":"wrapped"
         },
         "misc":{
@@ -551,11 +391,41 @@
             "out_of_scope_history_logging_action":"prompt",
             "pause_tasks_at_startup_default":true,
             "show_learn_tab":true,
-            "submit_feedback":true,
+            "submit_feedback":false,
             "suppress_confirm_on_close":false,
             "temporary_files_location":"",
             "uninteresting_headers":{
-                "hide_uninteresting_headers_by_default":false
+                "hide_uninteresting_headers_by_default":false,
+                "uninteresting_headers":[
+                    "accept",
+                    "accept-encoding",
+                    "accept-language",
+                    "if-modified-since",
+                    "if-none-match",
+                    "priority",
+                    "sec-ch-ua",
+                    "sec-ch-ua-arch",
+                    "sec-ch-ua-bitness",
+                    "sec-ch-ua-full-version",
+                    "sec-ch-ua-mobile",
+                    "sec-ch-ua-model",
+                    "sec-ch-ua-platform",
+                    "sec-ch-ua-platform-version",
+                    "sec-ch-ua-wow64",
+                    "sec-fetch-dest",
+                    "sec-fetch-mode",
+                    "sec-fetch-site",
+                    "sec-fetch-user",
+                    "upgrade-insecure-requests",
+                    "x-requested-with"
+                ]
+            }
+        },
+        "proxy":{
+            "default_display_message":{
+                "request":"original",
+                "response":"original",
+                "websocket":"original"
             }
         },
         "repeater":{
