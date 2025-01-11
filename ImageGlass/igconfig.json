@@ -10,7 +10,7 @@
   "EnableLoopSlideshow": true,
   "EnableFullscreenSlideshow": true,
   "EnableFrameless": false,
-  "EnableFullScreen": false,
+  "EnableFullScreen": true,
   "ShowGallery": true,
   "ShowGalleryScrollbars": false,
   "ShowGalleryFileName": true,
@@ -18,7 +18,7 @@
   "ShowToolbar": true,
   "ShowAppIcon": true,
   "EnableLoopBackNavigation": true,
-  "ShowCheckerboard": false,
+  "ShowCheckerboard": true,
   "ShowCheckerboardOnlyImageRegion": false,
   "EnableMultiInstances": true,
   "EnableWindowTopMost": false,
@@ -70,7 +70,7 @@
   "ImageBoosterCacheCount": 1,
   "ImageBoosterCacheMaxDimension": 8000,
   "ImageBoosterCacheMaxFileSizeInMb": 100,
-  "ZoomLockValue": 22.954634,
+  "ZoomLockValue": 35.633965,
   "ToolbarIconHeight": 24,
   "ImageEditQuality": 80,
   "InAppMessageDuration": 2000,
@@ -85,10 +85,10 @@
   "ImageInterpolationScaleUp": "NearestNeighbor",
   "AfterEditingAction": "Nothing",
   "WindowBackdrop": "Mica",
-  "ColorProfile": "None",
-  "AutoUpdate": "2024-08-18T11:50:49.2018771Z",
+  "ColorProfile": "CurrentMonitorProfile",
+  "AutoUpdate": "2024-12-12T01:01:43.4340576Z",
   "LastSeenImagePath": "C:\\Users\\sec\\AppData\\Local\\Programs\\ImageGlass\\default.webp",
-  "LastOpenedSetting": "",
+  "LastOpenedSetting": "appearance",
   "DarkTheme": "Kobe",
   "LightTheme": "Kobe-Light",
   "BackgroundColor": "",
@@ -169,7 +169,8 @@
       "OnClick": {
         "Executable": "MnuOpenFile",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -182,7 +183,8 @@
       "OnClick": {
         "Executable": "MnuViewPrevious",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -195,7 +197,8 @@
       "OnClick": {
         "Executable": "MnuViewNext",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Separator",
@@ -208,7 +211,8 @@
       "OnClick": {
         "Executable": "",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -221,7 +225,8 @@
       "OnClick": {
         "Executable": "MnuRotateLeft",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -234,7 +239,8 @@
       "OnClick": {
         "Executable": "MnuRotateRight",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -247,7 +253,8 @@
       "OnClick": {
         "Executable": "MnuFlipHorizontal",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -260,7 +267,8 @@
       "OnClick": {
         "Executable": "MnuFlipVertical",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -273,7 +281,8 @@
       "OnClick": {
         "Executable": "MnuCropTool",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Separator",
@@ -286,7 +295,8 @@
       "OnClick": {
         "Executable": "",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -299,7 +309,8 @@
       "OnClick": {
         "Executable": "MnuAutoZoom",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -312,7 +323,8 @@
       "OnClick": {
         "Executable": "MnuLockZoom",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -325,7 +337,8 @@
       "OnClick": {
         "Executable": "MnuScaleToWidth",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -338,7 +351,8 @@
       "OnClick": {
         "Executable": "MnuScaleToHeight",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -351,7 +365,8 @@
       "OnClick": {
         "Executable": "MnuScaleToFit",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -364,7 +379,8 @@
       "OnClick": {
         "Executable": "MnuScaleToFill",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Separator",
@@ -377,7 +393,8 @@
       "OnClick": {
         "Executable": "",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -390,7 +407,8 @@
       "OnClick": {
         "Executable": "MnuRefresh",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -403,7 +421,8 @@
       "OnClick": {
         "Executable": "MnuToggleGallery",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -416,7 +435,8 @@
       "OnClick": {
         "Executable": "MnuToggleCheckerboard",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -429,7 +449,8 @@
       "OnClick": {
         "Executable": "MnuFullScreen",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -442,7 +463,8 @@
       "OnClick": {
         "Executable": "MnuSlideshow",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Separator",
@@ -455,7 +477,8 @@
       "OnClick": {
         "Executable": "",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     },
     {
       "Type": "Button",
@@ -468,7 +491,8 @@
       "OnClick": {
         "Executable": "MnuMoveToRecycleBin",
         "Arguments": []
-      }
+      },
+      "Hotkeys": []
     }
   ],
   "ToolSettings": {}
