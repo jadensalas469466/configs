@@ -20,6 +20,7 @@
     "web3",
     "paper"
   ],
+  "customAiAssistants": [],
   "disableShowClientImageGuide": true,
   "enableDefaultAlwaysTranslatedUrls": true,
   "enableInputTranslation": true,
@@ -40,7 +41,7 @@
   "interfaceLanguage": "en",
   "isChangedAlwaysTranslatedUrls": true,
   "isShowInputTranslationConsent": false,
-  "localUpdatedAt": "2025-03-22T03:52:19.810Z",
+  "localUpdatedAt": "2025-04-18T10:21:53.438Z",
   "modifiedBySystem": true,
   "mouseHoverTranslationService": "inherit",
   "pcFloatBall": {
@@ -72,6 +73,9 @@
     "deepl": {
       "visible": false
     },
+    "deepseek": {
+      "visible": false
+    },
     "gemini": {
       "visible": false
     },
@@ -83,6 +87,12 @@
     },
     "yandex": {
       "visible": false
+    },
+    "zhipu": {
+      "visible": false
+    },
+    "zhipu-pro": {
+      "visible": false
     }
   },
   "translationTheme": "solidBorder",
@@ -93,5 +103,5 @@
     "excludeMatches": [],
     "matches": []
   },
-  "updatedAt": "2025-03-22T03:52:19.810Z"
+  "updatedAt": "2025-04-18T10:21:53.438Z"
 }
