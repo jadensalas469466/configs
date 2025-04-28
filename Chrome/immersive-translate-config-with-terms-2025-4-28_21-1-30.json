@@ -1,0 +1,208 @@
+{
+  "aiAssistantIds": [
+    "paraphrase",
+    "bilingual-mix",
+    "twitter",
+    "tech",
+    "reddit",
+    "news",
+    "music",
+    "medical",
+    "legal",
+    "github",
+    "game",
+    "ecommerce",
+    "financial",
+    "fiction",
+    "ao3",
+    "ebook",
+    "design",
+    "web3",
+    "paper"
+  ],
+  "customAiAssistants": [],
+  "disableShowClientImageGuide": true,
+  "enableDefaultAlwaysTranslatedUrls": true,
+  "enableInputTranslation": true,
+  "generalRule": {
+    "enableSearchEnhancement": false,
+    "enableSubtitle": false,
+    "isTranslateTitle": false,
+    "lineBreakMaxTextCount": 280,
+    "mouseHoverHoldKey": "Ctrl",
+    "mouseHoverPreferenceKey": "Ctrl",
+    "subtitleRule.add": {
+      "autoEnableSubtitle": true,
+      "youtubeAutoEnableSubtitle": false
+    }
+  },
+  "inputTargetLanguage": "en",
+  "inputTranslationService": "inherit",
+  "interfaceLanguage": "en",
+  "isChangedAlwaysTranslatedUrls": true,
+  "isShowInputTranslationConsent": false,
+  "localUpdatedAt": "2025-04-18T10:21:53.438Z",
+  "modifiedBySystem": true,
+  "mouseHoverTranslationService": "inherit",
+  "pcFloatBall": {
+    "afterInstalledAt": "2023-10-28",
+    "blockUrls": [],
+    "clickType": "translate",
+    "enable": false,
+    "fixedPosition": "right",
+    "isPc": true
+  },
+  "sameLangCheck": false,
+  "subtitleTranslateService": "inherit",
+  "targetLanguage": "zh-CN",
+  "tempTranslateDomainMinutes": 0,
+  "translationArea": "main",
+  "translationLanguagePattern": {
+    "excludeMatches": [
+      "zh-CN"
+    ],
+    "matches": []
+  },
+  "translationMode": "dual",
+  "translationService": "google",
+  "translationServiceChangedbyUserAt": "2024-08-30T05:06:31.629Z",
+  "translationServices": {
+    "claude": {
+      "visible": false
+    },
+    "deepl": {
+      "visible": false
+    },
+    "deepseek": {
+      "visible": false
+    },
+    "gemini": {
+      "visible": false
+    },
+    "openai": {
+      "visible": false
+    },
+    "siliconcloud": {
+      "visible": false
+    },
+    "yandex": {
+      "visible": false
+    },
+    "zhipu": {
+      "visible": false
+    },
+    "zhipu-pro": {
+      "visible": false
+    }
+  },
+  "translationTheme": "solidBorder",
+  "translationThemePatterns": {
+    "solidBorder": {}
+  },
+  "translationUrlPattern": {
+    "excludeMatches": [],
+    "matches": []
+  },
+  "updatedAt": "2025-04-18T10:21:53.438Z",
+  "terms": {
+    "version": 1,
+    "exportedAt": "2025-04-28T13:01:30.429Z",
+    "data": [
+      {
+        "id": "default",
+        "name": "Default Terms",
+        "author": "self",
+        "description": "Default common terms with common terms",
+        "matches": [
+          "*"
+        ],
+        "glossaries": [
+          {
+            "k": "LLM",
+            "v": ""
+          },
+          {
+            "k": "LLMs",
+            "v": ""
+          }
+        ],
+        "order": 0,
+        "active": true,
+        "i18ns": {
+          "ar": {
+            "description": "قائمة المصطلحات الافتراضية",
+            "name": "افتراضي"
+          },
+          "de": {
+            "description": "Standard-Glossar",
+            "name": "Standard"
+          },
+          "en": {
+            "description": "Default glossary",
+            "name": "Default"
+          },
+          "es": {
+            "description": "Glosario predeterminado",
+            "name": "Predeterminado"
+          },
+          "fa": {
+            "description": "واژه‌نامه پیش‌فرض",
+            "name": "پیش‌فرض"
+          },
+          "fr": {
+            "description": "Glossaire par défaut",
+            "name": "Défaut"
+          },
+          "he": {
+            "description": "מילון מונחים ברירת מחדל",
+            "name": "ברירת מחדל"
+          },
+          "hi": {
+            "description": "डिफ़ॉल्ट शब्दावली",
+            "name": "डिफ़ॉल्ट"
+          },
+          "hu": {
+            "description": "Alapértelmezett szószedet",
+            "name": "Alapértelmezett"
+          },
+          "it": {
+            "description": "Glossario predefinito",
+            "name": "Predefinito"
+          },
+          "ja": {
+            "description": "デフォルトの用語集",
+            "name": "デフォルト"
+          },
+          "ko": {
+            "description": "기본 용어집",
+            "name": "기본값"
+          },
+          "pt-BR": {
+            "description": "Glossário padrão",
+            "name": "Padrão"
+          },
+          "pt-PT": {
+            "description": "Glossário padrão",
+            "name": "Padrão"
+          },
+          "ru": {
+            "description": "Глоссарий по умолчанию",
+            "name": "По умолчанию"
+          },
+          "tr": {
+            "description": "Varsayılan sözlük",
+            "name": "Varsayılan"
+          },
+          "zh-CN": {
+            "description": "默认术语库",
+            "name": "默认"
+          },
+          "zh-TW": {
+            "description": "預設術語庫",
+            "name": "預設"
+          }
+        }
+      }
+    ]
+  }
+}
