@@ -1,5 +1,5 @@
 {
-    "name": "hack",
+    "name": "hacker",
     "background": "#FAFAFA",
     "black": "#383A42",
     "blue": "#0184BC",
@@ -15,7 +15,6 @@
     "cyan": "#0997B3",
     "foreground": "#383A42",
     "green": "#50A14F",
-    "name": "hack",
     "purple": "#A626A4",
     "red": "#E45649",
     "selectionBackground": "#383A42",
