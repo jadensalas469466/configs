@@ -265,3 +265,5 @@ fi
 #
 # line 229 :
 # + export GROFF_NO_SGR=1
+
+export PATH="$HOME/.local/bin:$PATH"
