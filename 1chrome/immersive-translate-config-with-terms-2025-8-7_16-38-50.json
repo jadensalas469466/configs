@@ -1,10 +1,10 @@
 {
   "aiAssistantIds": [
-    "paraphrase",
     "bilingual-mix",
     "twitter",
     "tech",
     "reddit",
+    "paper",
     "news",
     "music",
     "medical",
@@ -17,8 +17,8 @@
     "ao3",
     "ebook",
     "design",
-    "web3",
-    "paper"
+    "paraphrase",
+    "web3"
   ],
   "customAiAssistants": [],
   "disableShowClientImageGuide": true,
@@ -33,7 +33,7 @@
     "mouseHoverPreferenceKey": "Ctrl",
     "subtitleRule.add": {
       "autoEnableSubtitle": true,
-      "youtubeAutoEnableSubtitle": false
+      "youtubeAutoEnableSubtitle": true
     }
   },
   "inputTargetLanguage": "en",
@@ -41,9 +41,10 @@
   "interfaceLanguage": "en",
   "isChangedAlwaysTranslatedUrls": true,
   "isShowInputTranslationConsent": false,
-  "localUpdatedAt": "2025-04-18T10:21:53.438Z",
+  "localUpdatedAt": "2025-08-07T08:38:40.606Z",
   "modifiedBySystem": true,
   "mouseHoverTranslationService": "inherit",
+  "openedNewFeaturesBlog": "6-months-of-upgrades-in-3-minutes",
   "pcFloatBall": {
     "afterInstalledAt": "2023-10-28",
     "blockUrls": [],
@@ -52,6 +53,7 @@
     "fixedPosition": "right",
     "isPc": true
   },
+  "rewardCenterOpenTime": "1753403731613",
   "sameLangCheck": false,
   "subtitleTranslateService": "inherit",
   "targetLanguage": "zh-CN",
@@ -103,10 +105,10 @@
     "excludeMatches": [],
     "matches": []
   },
-  "updatedAt": "2025-04-18T10:21:53.438Z",
+  "updatedAt": "2025-08-07T08:38:40.606Z",
   "terms": {
     "version": 1,
-    "exportedAt": "2025-05-11T23:44:34.942Z",
+    "exportedAt": "2025-08-07T08:38:50.632Z",
     "data": [
       {
         "id": "default",
