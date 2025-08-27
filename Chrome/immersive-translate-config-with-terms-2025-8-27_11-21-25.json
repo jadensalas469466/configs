@@ -31,9 +31,16 @@
     "lineBreakMaxTextCount": 280,
     "mouseHoverHoldKey": "Ctrl",
     "mouseHoverPreferenceKey": "Ctrl",
+    "selectionTranslation.add": {
+      "enable": false,
+      "triggerMode": "mini"
+    },
     "subtitleRule.add": {
-      "autoEnableSubtitle": true,
-      "youtubeAutoEnableSubtitle": true
+      "autoEnableSubtitle": false,
+      "disabled": false,
+      "meetingAutoEnableSubtitle": true,
+      "preTranslation": true,
+      "youtubeAutoEnableSubtitle": false
     }
   },
   "inputTargetLanguage": "en",
@@ -41,7 +48,7 @@
   "interfaceLanguage": "en",
   "isChangedAlwaysTranslatedUrls": true,
   "isShowInputTranslationConsent": false,
-  "localUpdatedAt": "2025-08-07T08:38:40.606Z",
+  "localUpdatedAt": "2025-08-27T03:19:23.525Z",
   "modifiedBySystem": true,
   "mouseHoverTranslationService": "inherit",
   "openedNewFeaturesBlog": "6-months-of-upgrades-in-3-minutes",
@@ -68,29 +75,75 @@
   "translationMode": "dual",
   "translationService": "google",
   "translationServiceChangedbyUserAt": "2024-08-30T05:06:31.629Z",
+  "translationServiceExpanded": {
+    "custom": false,
+    "max": false,
+    "pro": false
+  },
   "translationServices": {
     "claude": {
+      "visible": false
+    },
+    "claude-max": {
+      "visible": false
+    },
+    "claude-pro": {
+      "migrateFrom": "claude",
       "visible": false
     },
     "deepl": {
       "visible": false
     },
+    "deepl-pro": {
+      "migrateFrom": "deepl",
+      "visible": false
+    },
     "deepseek": {
+      "visible": false
+    },
+    "deepseek-pro": {
+      "migrateFrom": "deepseek",
       "visible": false
     },
     "gemini": {
       "visible": false
     },
+    "gemini-max": {
+      "visible": false
+    },
+    "gemini-pro": {
+      "migrateFrom": "gemini",
+      "visible": false
+    },
     "openai": {
+      "visible": false
+    },
+    "openai-max": {
+      "visible": false
+    },
+    "openai-pro": {
+      "migrateFrom": "openai",
       "visible": false
     },
     "siliconcloud": {
       "visible": false
     },
+    "siliconcloud-free": {
+      "migrateFrom": "siliconcloud",
+      "visible": false
+    },
     "yandex": {
       "visible": false
     },
+    "yandex-free": {
+      "migrateFrom": "yandex",
+      "visible": false
+    },
     "zhipu": {
+      "visible": false
+    },
+    "zhipu-free": {
+      "migrateFrom": "zhipu",
       "visible": false
     },
     "zhipu-pro": {
@@ -105,10 +158,10 @@
     "excludeMatches": [],
     "matches": []
   },
-  "updatedAt": "2025-08-07T08:38:40.606Z",
+  "updatedAt": "2025-08-27T03:19:23.525Z",
   "terms": {
     "version": 1,
-    "exportedAt": "2025-08-07T08:38:50.632Z",
+    "exportedAt": "2025-08-27T03:21:25.341Z",
     "data": [
       {
         "id": "default",
