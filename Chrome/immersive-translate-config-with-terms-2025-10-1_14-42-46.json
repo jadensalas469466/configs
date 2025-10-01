@@ -23,10 +23,20 @@
   "customAiAssistants": [],
   "disableShowClientImageGuide": true,
   "enableDefaultAlwaysTranslatedUrls": true,
-  "enableInputTranslation": true,
+  "enableInputTranslation": false,
+  "enableInputTranslationWithoutTriggerKey": false,
   "generalRule": {
+    "aiWriting.add": {
+      "enable": false
+    },
     "enableSearchEnhancement": false,
+    "enableSiteAutoTranslate": false,
     "enableSubtitle": false,
+    "imageRule.add": {
+      "enableMangaFloatBall": false,
+      "enableMouseHover": false,
+      "enableTools": true
+    },
     "isTranslateTitle": false,
     "lineBreakMaxTextCount": 280,
     "mouseHoverHoldKey": "Ctrl",
@@ -47,8 +57,9 @@
   "inputTranslationService": "inherit",
   "interfaceLanguage": "en",
   "isChangedAlwaysTranslatedUrls": true,
+  "isEnableGuideTips": true,
   "isShowInputTranslationConsent": false,
-  "localUpdatedAt": "2025-08-27T03:19:23.525Z",
+  "localUpdatedAt": "2025-10-01T06:34:27.479Z",
   "modifiedBySystem": true,
   "mouseHoverTranslationService": "inherit",
   "openedNewFeaturesBlog": "6-months-of-upgrades-in-3-minutes",
@@ -66,6 +77,9 @@
   "targetLanguage": "zh-CN",
   "tempTranslateDomainMinutes": 0,
   "translationArea": "main",
+  "translationLanguagePairs": [
+    "zh-CN:zh-TW"
+  ],
   "translationLanguagePattern": {
     "excludeMatches": [
       "zh-CN"
@@ -73,14 +87,22 @@
     "matches": []
   },
   "translationMode": "dual",
-  "translationService": "google",
-  "translationServiceChangedbyUserAt": "2024-08-30T05:06:31.629Z",
+  "translationModeLanguagePattern": {
+    "dualMatches": [],
+    "translationMatches": []
+  },
+  "translationService": "bing",
+  "translationServiceChangedbyUserAt": "2025-10-01T06:24:56.468Z",
   "translationServiceExpanded": {
     "custom": false,
+    "free": true,
     "max": false,
     "pro": false
   },
   "translationServices": {
+    "bing-free": {
+      "visible": true
+    },
     "claude": {
       "visible": false
     },
@@ -115,6 +137,12 @@
       "migrateFrom": "gemini",
       "visible": false
     },
+    "google-free": {
+      "visible": true
+    },
+    "kimi-max": {
+      "visible": false
+    },
     "openai": {
       "visible": false
     },
@@ -123,6 +151,9 @@
     },
     "openai-pro": {
       "migrateFrom": "openai",
+      "visible": false
+    },
+    "qwen-pro": {
       "visible": false
     },
     "siliconcloud": {
@@ -142,6 +173,9 @@
     "zhipu": {
       "visible": false
     },
+    "zhipu-air-pro": {
+      "visible": false
+    },
     "zhipu-free": {
       "migrateFrom": "zhipu",
       "visible": false
@@ -158,10 +192,13 @@
     "excludeMatches": [],
     "matches": []
   },
-  "updatedAt": "2025-08-27T03:19:23.525Z",
+  "updatedAt": "2025-10-01T06:34:27.479Z",
+  "userTranslationServices": {
+    "translationService": "bing-free"
+  },
   "terms": {
     "version": 1,
-    "exportedAt": "2025-08-27T03:21:25.341Z",
+    "exportedAt": "2025-10-01T06:42:46.903Z",
     "data": [
       {
         "id": "default",
