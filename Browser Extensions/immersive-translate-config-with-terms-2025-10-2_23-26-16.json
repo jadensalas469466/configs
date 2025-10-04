@@ -59,7 +59,7 @@
   "isChangedAlwaysTranslatedUrls": true,
   "isEnableGuideTips": true,
   "isShowInputTranslationConsent": false,
-  "localUpdatedAt": "2025-10-01T06:34:27.479Z",
+  "localUpdatedAt": "2025-10-02T13:37:50.391Z",
   "modifiedBySystem": true,
   "mouseHoverTranslationService": "inherit",
   "openedNewFeaturesBlog": "6-months-of-upgrades-in-3-minutes",
@@ -192,13 +192,13 @@
     "excludeMatches": [],
     "matches": []
   },
-  "updatedAt": "2025-10-01T06:34:27.479Z",
+  "updatedAt": "2025-10-02T13:37:50.391Z",
   "userTranslationServices": {
     "translationService": "bing-free"
   },
   "terms": {
     "version": 1,
-    "exportedAt": "2025-10-01T06:42:46.903Z",
+    "exportedAt": "2025-10-02T15:26:16.215Z",
     "data": [
       {
         "id": "default",
