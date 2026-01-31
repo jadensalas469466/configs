@@ -20,6 +20,7 @@
     "paraphrase",
     "web3"
   ],
+  "conflictNeedConfirm": true,
   "customAiAssistants": [],
   "disableShowClientImageGuide": true,
   "enableDefaultAlwaysTranslatedUrls": true,
@@ -59,7 +60,7 @@
   "isChangedAlwaysTranslatedUrls": true,
   "isEnableGuideTips": true,
   "isShowInputTranslationConsent": false,
-  "localUpdatedAt": "2025-10-02T13:37:50.391Z",
+  "localUpdatedAt": "2026-01-25T10:14:55.498Z",
   "modifiedBySystem": true,
   "mouseHoverTranslationService": "inherit",
   "openedNewFeaturesBlog": "6-months-of-upgrades-in-3-minutes",
@@ -91,15 +92,18 @@
     "dualMatches": [],
     "translationMatches": []
   },
-  "translationService": "bing",
-  "translationServiceChangedbyUserAt": "2025-10-01T06:24:56.468Z",
+  "translationService": "google",
+  "translationServiceChangedbyUserAt": "2026-01-25T10:12:47.521Z",
   "translationServiceExpanded": {
-    "custom": false,
+    "custom": true,
     "free": true,
-    "max": false,
-    "pro": false
+    "max": true,
+    "pro": true
   },
   "translationServices": {
+    "babel-lite-free": {
+      "visible": false
+    },
     "bing-free": {
       "visible": true
     },
@@ -192,13 +196,13 @@
     "excludeMatches": [],
     "matches": []
   },
-  "updatedAt": "2025-10-02T13:37:50.391Z",
+  "updatedAt": "2026-01-25T10:14:55.498Z",
   "userTranslationServices": {
-    "translationService": "bing-free"
+    "translationService": "google-free"
   },
   "terms": {
     "version": 1,
-    "exportedAt": "2025-10-02T15:26:16.215Z",
+    "exportedAt": "2026-01-25T10:16:54.531Z",
     "data": [
       {
         "id": "default",
@@ -292,6 +296,169 @@
           "zh-TW": {
             "description": "預設術語庫",
             "name": "預設"
+          }
+        }
+      },
+      {
+        "id": "programming",
+        "name": "Programming",
+        "author": "immersive",
+        "description": "Glossary for programming languages, software development concepts, and related IT terminology.",
+        "glossaries": [
+          {
+            "k": "Python",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "JavaScript",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "TypeScript",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "Java",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "Rust",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "Swift",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "Kotlin",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "Ruby",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "PHP",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "MATLAB",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "SQL",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "HTML",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "CSS",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "Shell",
+            "tl": "auto",
+            "v": ""
+          },
+          {
+            "k": "stub",
+            "tl": "auto",
+            "v": ""
+          }
+        ],
+        "langs": [
+          "auto",
+          "zh-CN",
+          "zh-TW"
+        ],
+        "active": true,
+        "i18ns": {
+          "ar": {
+            "description": "مسرد للغات البرمجة ومفاهيم تطوير البرامج ومصطلحات تكنولوجيا المعلومات ذات الصلة.",
+            "name": "برمجة"
+          },
+          "de": {
+            "description": "Glossar für Programmiersprachen, Softwareentwicklungskonzepte und verwandte IT-Terminologie.",
+            "name": "Programmierung"
+          },
+          "en": {
+            "description": "Glossary for programming languages, software development concepts, and related IT terminology.",
+            "name": "Programming"
+          },
+          "es": {
+            "description": "Glosario de lenguajes de programación, conceptos de desarrollo de software y terminología informática relacionada.",
+            "name": "Programación"
+          },
+          "fa": {
+            "description": "واژه‌نامه زبان‌های برنامه‌نویسی، مفاهیم توسعه نرم‌افزار و اصطلاحات مرتبط با فناوری اطلاعات.",
+            "name": "برنامه‌نویسی"
+          },
+          "fr": {
+            "description": "Glossaire des langages de programmation, des concepts de développement logiciel et de la terminologie informatique associée.",
+            "name": "Programmation"
+          },
+          "he": {
+            "description": "מילון מונחים לשפות תכנות, מושגי פיתוח תוכנה וטרמינולוגיה קשורה של IT.",
+            "name": "תכנות"
+          },
+          "hi": {
+            "description": "प्रोग्रामिंग भाषाओं, सॉफ्टवेयर विकास अवधारणाओं और संबंधित आईटी शब्दावली के लिए शब्दावली।",
+            "name": "प्रोग्रामिंग"
+          },
+          "hu": {
+            "description": "Szószedet programozási nyelvekhez, szoftverfejlesztési koncepciókhoz és kapcsolódó informatikai terminológiához.",
+            "name": "Programozás"
+          },
+          "it": {
+            "description": "Glossario per linguaggi di programmazione, concetti di sviluppo software e terminologia informatica correlata.",
+            "name": "Programmazione"
+          },
+          "ja": {
+            "description": "プログラミング言語、ソフトウェア開発コンセプト、および関連するIT用語の用語集。",
+            "name": "プログラミング"
+          },
+          "ko": {
+            "description": "프로그래밍 언어, 소프트웨어 개발 개념 및 관련 IT 용어집.",
+            "name": "프로그래밍"
+          },
+          "pt-BR": {
+            "description": "Glossário para linguagens de programação, conceitos de desenvolvimento de software e terminologia de TI relacionada.",
+            "name": "Programação"
+          },
+          "pt-PT": {
+            "description": "Glossário para linguagens de programação, conceitos de desenvolvimento de software e terminologia de TI relacionada.",
+            "name": "Programação"
+          },
+          "ru": {
+            "description": "Глоссарий языков программирования, концепций разработки программного обеспечения и связанной ИТ-терминологии.",
+            "name": "Программирование"
+          },
+          "tr": {
+            "description": "Programlama dilleri, yazılım geliştirme kavramları ve ilgili BT terminolojisi sözlüğü.",
+            "name": "Programlama"
+          },
+          "zh-CN": {
+            "description": "包含编程语言、软件开发概念及相关 IT 术语的词汇表。",
+            "name": "编程"
+          },
+          "zh-TW": {
+            "description": "包含程式語言、軟體開發概念及相關 IT 術語的詞彙表。",
+            "name": "程式設計"
           }
         }
       }
