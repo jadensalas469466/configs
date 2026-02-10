@@ -31,7 +31,11 @@
     </Filter>
     <FolderPairs>
         <Pair>
-            <Left>C:\Users\ease\Documents\backup</Left>
+            <Left>C:\Users\null\Documents\sync</Left>
+            <Right>D:\sync</Right>
+        </Pair>
+        <Pair>
+            <Left>C:\Users\null\Documents\backup</Left>
             <Right>D:\backup</Right>
         </Pair>
     </FolderPairs>
