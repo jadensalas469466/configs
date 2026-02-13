@@ -1,12 +1,16 @@
 {
   "aiAssistantIds": [],
   "customAiAssistants": [],
+  "disableShowClientImageGuide": true,
   "generalRule": {
     "inputConfig.add": {
       "autoLanguagePageEnable": true
     },
     "mouseHoverHoldKey": "Ctrl",
     "mouseHoverPreferenceKey": "Ctrl",
+    "selectionTranslation.add": {
+      "enable": true
+    },
     "subtitleRule.add": {
       "youtubeAutoEnableSubtitle": false
     }
@@ -14,7 +18,7 @@
   "interfaceLanguage": "en",
   "isChangedAlwaysTranslatedUrls": false,
   "isEnableNotification": false,
-  "localUpdatedAt": "2026-02-10T03:39:54.063Z",
+  "localUpdatedAt": "2026-02-12T00:19:05.779Z",
   "pcFloatBall": {
     "afterInstalledAt": "2023-10-28",
     "blockUrls": [
@@ -53,7 +57,7 @@
     "upgradeShowLimit": 20,
     "upgradeVisible": true
   },
-  "pcFloatBallMainBtnTooltipShownCount": 8,
+  "pcFloatBallMainBtnTooltipShownCount": 9,
   "rewardCenterOpenTime": "1770694657123",
   "sensitiveConfig": {
     "telemetry": false
@@ -84,13 +88,13 @@
       "visible": false
     }
   },
-  "updatedAt": "2026-02-10T03:39:54.063Z",
+  "updatedAt": "2026-02-12T00:19:05.779Z",
   "userTranslationServices": {
     "translationService": "google-free"
   },
   "terms": {
     "version": 1,
-    "exportedAt": "2026-02-10T03:40:24.346Z",
+    "exportedAt": "2026-02-13T02:49:05.966Z",
     "data": [
       {
         "id": "default",
