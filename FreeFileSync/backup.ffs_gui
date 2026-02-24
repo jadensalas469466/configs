@@ -31,12 +31,12 @@
     </Filter>
     <FolderPairs>
         <Pair>
-            <Left>C:\Users\null\Documents\sync</Left>
-            <Right>D:\sync</Right>
+            <Left>C:\Users\null\Documents\KeePassXC</Left>
+            <Right>D:\Cloud Storage\KeePassXC</Right>
         </Pair>
         <Pair>
-            <Left>C:\Users\null\Documents\backup</Left>
-            <Right>D:\backup</Right>
+            <Left>C:\Users\null\Documents\VeraCrypt</Left>
+            <Right>D:\Cloud Storage\VeraCrypt</Right>
         </Pair>
     </FolderPairs>
     <Errors Ignore="false" Retry="0" Delay="5"/>
