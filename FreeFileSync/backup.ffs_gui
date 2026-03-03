@@ -31,8 +31,8 @@
     </Filter>
     <FolderPairs>
         <Pair>
-            <Left>C:\Users\null\Documents\KeePassXC</Left>
-            <Right>D:\Cloud Storage\KeePassXC</Right>
+            <Left>C:\Users\null\Documents\KeePass</Left>
+            <Right>D:\Cloud Storage\KeePass</Right>
         </Pair>
         <Pair>
             <Left>C:\Users\null\Documents\VeraCrypt</Left>
